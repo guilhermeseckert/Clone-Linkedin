@@ -15,6 +15,10 @@ height: 100%;
     display: flex;
     justify-content: center;
   }
+  > span {
+    margin-top: 52px;
+    padding: 8px 0;
+  }
 }
 
 .left-column, .right-column {
@@ -22,7 +26,7 @@ height: 100%;
 }
 
 @media (min-width: 1180px) {
-  .left-column, .right-column {
+  .left-column, .right-column, .ad-banner {
   display: unset;
 }
 

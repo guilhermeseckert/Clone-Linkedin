@@ -15,9 +15,11 @@ const Layout: React.FC = () => {
     <Container>
       <MobileHeader/>
       <DesktopHeader/>
+
       <span>
         <AdBanner/>
       </span>
+      
       <main>
         <LeftColumn/>
         <MiddleColumn/>
